@@ -1,0 +1,10 @@
+{
+  "name": "midad_website-root",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm run dev --prefix midad_website",
+    "build": "npm run build --prefix midad_website",
+    "preview": "npm run preview --prefix midad_website"
+  }
+}
