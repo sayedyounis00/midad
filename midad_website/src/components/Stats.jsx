@@ -1,9 +1,9 @@
 export default function Stats() {
   const statsData = [
-    { value: '+35', label: 'عنصر جاهز', sub: 'وصف فرعي قصير' },
-    { value: '8', label: 'فئة رئيسية', sub: 'وصف فرعي قصير' },
-    { value: 'mm', label: 'دقّة عالية', sub: 'وصف فرعي قصير' },
-    { value: 'PDF', label: 'صيغة التحميل', sub: 'وصف فرعي قصير' }
+    { icon: '⚡', label: 'خدمة متكاملة', sub: 'نغطي احتياجاتك من الألف للياء' },
+    { icon: '🎯', label: 'تركيز على النتائج', sub: 'كل خطوة لها هدف واضح' },
+    { icon: '🤝', label: 'متابعة مستمرة', sub: 'معك في كل مرحلة من مشروعك' },
+    { icon: '🚀', label: 'خبرة متراكمة', sub: 'سنوات من العمل الفعلي في المحتوى والتسويق الرقمي' }
   ];
 
   return (
@@ -11,7 +11,7 @@ export default function Stats() {
       <div className="container stats-grid">
         {statsData.map((stat, index) => (
           <div key={index} className="stat-item">
-            <span className="stat-value">{stat.value}</span>
+            <span className="stat-value">{stat.icon}</span>
             <span className="stat-label">{stat.label}</span>
             <span className="stat-sub">{stat.sub}</span>
           </div>

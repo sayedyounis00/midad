@@ -4,23 +4,22 @@ export default function Footer() {
       <div className="container footer-grid">
         <div className="footer-brand">
           <a href="#" className="logo">
-            <img src="/LOGO ICON.png" alt="شعار المنصة" className="logo-img" />
-            <span className="logo-text">اسم المنصة</span>
+            <img src="/LOGO ICON.png" alt="شعار مِداد" className="logo-img" />
+            <span className="logo-text">مِداد</span>
           </a>
-          <p>وصف مختصر عن المنصة.</p>
-          <a href="#" className="social-link">رابط التواصل الاجتماعي</a>
+          <p>وكالة تسويق متكاملة، نؤمن أن كل علامة تجارية تستحق أن تُروى قصتها بالشكل الصحيح.</p>
         </div>
 
         <div className="footer-col">
-          <h4>المنصة</h4>
-          <a href="#">عن المنصة</a>
-          <a href="#">تواصل معنا</a>
-          <a href="#">الشروط والأحكام</a>
+          <h4>مِداد</h4>
+          <a href="#services">خدماتنا</a>
+          <a href="#how-it-works">كيف نعمل</a>
+          <a href="#why-us">لماذا نحن</a>
         </div>
       </div>
       <div className="container footer-bottom">
-        <span>© اسم المنصة</span>
-        <span>صُمم لأصحاب الأفكار.</span>
+        <span>© جميع الحقوق محفوظة لـ مِداد</span>
+        <span>نبتكر هوية، نصنع محتوى، ونبني حضورًا رقميًا.</span>
       </div>
     </footer>
   );

@@ -19,12 +19,13 @@ export default function Navbar() {
         <div className={`nav-menu-container ${isOpen ? 'open' : ''}`}>
           <nav className="nav-links">
             <a href="#" className="active" onClick={() => setIsOpen(false)}>الرئيسية</a>
-            <a href="#how-it-works" onClick={() => setIsOpen(false)}>الأسئلة الشائعة</a>
-            <a href="#" onClick={() => setIsOpen(false)}>عن المنصة</a>
+            <a href="#services" onClick={() => setIsOpen(false)}>خدماتنا</a>
+            <a href="#how-it-works" onClick={() => setIsOpen(false)}>رحلتك معنا</a>
+            <a href="#why-us" onClick={() => setIsOpen(false)}>لماذا مِداد</a>
           </nav>
 
           <div className="navbar-cta">
-            <a href="#" className="btn btn-primary" onClick={() => setIsOpen(false)}>تصفّح المكتبة</a>
+            <a href="#how-it-works" className="btn btn-primary" onClick={() => setIsOpen(false)}>ابدأ قصتك معنا</a>
           </div>
         </div>
 

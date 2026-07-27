@@ -4,14 +4,12 @@ export default function Categories() {
   const [searchTerm, setSearchTerm] = useState('');
 
   const categoriesData = [
-    { icon: '🍕', title: 'فئة 1', desc: 'وصف قصير للفئة الأولى.' },
-    { icon: '🥡', title: 'فئة 2', desc: 'وصف قصير للفئة الثانية.' },
-    { icon: '🥐', title: 'فئة 3', desc: 'وصف قصير للفئة الثالثة.' },
-    { icon: '💄', title: 'فئة 4', desc: 'وصف قصير للفئة الرابعة.' },
-    { icon: '💊', title: 'فئة 5', desc: 'وصف قصير للفئة الخامسة.' },
-    { icon: '📦', title: 'فئة 6', desc: 'وصف قصير للفئة السادسة.' },
-    { icon: '🛍️', title: 'فئة 7', desc: 'وصف قصير للفئة السابعة.' },
-    { icon: '🏷️', title: 'فئة 8', desc: 'وصف قصير للفئة الثامنة.' }
+    { icon: '🎨', title: 'الهوية البصرية والبراندنج', desc: 'نبني هوية تعبّر عنك' },
+    { icon: '📱', title: 'إدارة السوشيال ميديا', desc: 'محتوى يوصلك لجمهورك الصح' },
+    { icon: '🎯', title: 'الإعلانات الممولة', desc: 'استهداف دقيق يحقق نتائج' },
+    { icon: '🎬', title: 'إنتاج الفيديو والمحتوى', desc: 'من التصوير للمونتاج باحترافية' },
+    { icon: '💻', title: 'تصميم وبرمجة المواقع', desc: 'حضور رقمي يعكس هويتك' },
+    { icon: '🧭', title: 'الاستراتيجية التسويقية', desc: 'خطة واضحة نحو أهدافك' }
   ];
 
   // Filter based on search term (title or description)
@@ -21,17 +19,17 @@ export default function Categories() {
   );
 
   return (
-    <section className="categories">
+    <section className="categories" id="services">
       <div className="container">
-        <span className="section-eyebrow">التصنيفات</span>
-        <h2 className="section-title">تصفّح حسب الفئة</h2>
-        <p className="section-sub">وصف مختصر يشرح أن كل فئة مصمّمة لاحتياج مختلف.</p>
+        <span className="section-eyebrow">تصفّح خدماتنا</span>
+        <h2 className="section-title">خدماتنا المميزة</h2>
+        <p className="section-sub">كل خدمة مصممة لتلبي احتياجًا مختلفًا في رحلة علامتك التجارية</p>
 
         {/* Dynamic Search Filter Bar */}
         <div className="search-filter-container">
           <input 
             type="text" 
-            placeholder="ابحث عن فئة..." 
+            placeholder="ابحث عن خدمة..." 
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             className="search-input"

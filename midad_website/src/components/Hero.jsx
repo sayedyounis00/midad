@@ -3,20 +3,19 @@ export default function Hero() {
     <section className="hero">
       <div className="container hero-inner">
         <div className="hero-copy">
-          <span className="eyebrow">وصف مختصر للمنصة</span>
-          <h1>عنوان رئيسي جذّاب <br /> عن قيمة المنتج</h1>
+          <span className="eyebrow">عن القصة: نبذة عن مِداد</span>
+          <h1>كل علامة تجارية تستحق أن<br />تُروى قصتها بالشكل الصحيح</h1>
           <p className="hero-sub">
-            فقرة فرعية تشرح الفكرة الأساسية للمنتج، ونوع المحتوى الذي
-            توفّره المنصة، وكيف يستفيد المستخدم منها بخطوة بسيطة.
+            في مِداد، نبتكر هوية، نصنع محتوى، ونبني حضورًا رقميًا يترك أثرًا ويحقق النتائج.
           </p>
           <div className="hero-actions">
-            <a href="#" className="btn btn-primary btn-lg">تصفّح المكتبة</a>
+            <a href="#how-it-works" className="btn btn-primary btn-lg">ابدأ قصتك معنا</a>
           </div>
 
           <ul className="hero-badges">
-            <li>ميزة أولى مختصرة</li>
-            <li>ميزة ثانية مختصرة</li>
-            <li>ميزة ثالثة مختصرة</li>
+            <li>وكالة تسويق متكاملة</li>
+            <li>من الفكرة الأولى إلى الأثر الملموس</li>
+            <li>نرافقك في كل خطوة</li>
           </ul>
         </div>
 
@@ -24,22 +23,22 @@ export default function Hero() {
           <div className="float-card card-1">
             <div className="card-thumb"></div>
             <div className="card-label">
-              <strong>تصنيف المنتج 1</strong>
-              <span>وصف مختصر للمنتج والأبعاد</span>
+              <strong>هوية بصرية وبراندنج</strong>
+              <span>نبني هوية تعبّر عنك</span>
             </div>
           </div>
           <div className="float-card card-2">
             <div className="card-thumb"></div>
             <div className="card-label">
-              <strong>تصنيف المنتج 2</strong>
-              <span>وصف مختصر للمنتج والأبعاد</span>
+              <strong>إدارة السوشيال ميديا</strong>
+              <span>محتوى يوصلك لجمهورك الصح</span>
             </div>
           </div>
           <div className="float-card card-3">
             <div className="card-thumb"></div>
             <div className="card-label">
-              <strong>تصنيف المنتج 3</strong>
-              <span>وصف مختصر للمنتج والأبعاد</span>
+              <strong>استراتيجية تسويقية</strong>
+              <span>خطة واضحة نحو أهدافك</span>
             </div>
           </div>
         </div>
