@@ -23,8 +23,8 @@ export default function Hero() {
           <div className="float-card card-1">
             <div className="card-thumb"></div>
             <div className="card-label">
-              <strong>هوية بصرية وبراندنج</strong>
-              <span>نبني هوية تعبّر عنك</span>
+              <strong>تصميم وبرمجة المواقع</strong>
+              <span>حضور رقمي يعكس هويتك</span>
             </div>
           </div>
           <div className="float-card card-2">
@@ -37,8 +37,8 @@ export default function Hero() {
           <div className="float-card card-3">
             <div className="card-thumb"></div>
             <div className="card-label">
-              <strong>استراتيجية تسويقية</strong>
-              <span>خطة واضحة نحو أهدافك</span>
+              <strong>إنتاج الفيديو والمحتوى </strong>
+              <span> من التصوير للمونتاج باحترافية</span>
             </div>
           </div>
         </div>

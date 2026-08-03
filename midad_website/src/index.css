@@ -238,8 +238,8 @@ h4 {
 
 .eyebrow {
   display: inline-block;
-  background: var(--accent-glow);
-  color: var(--accent);
+  background: var(--accent);
+  color: #000;
   padding: 6px 16px;
   border-radius: 999px;
   font-size: 13px;
@@ -249,7 +249,7 @@ h4 {
 
 .hero-copy h1 {
   font-size: 48px;
-  font-weight: 900;
+  font-weight: 800;
   margin-bottom: 20px;
   color: var(--ink);
 }

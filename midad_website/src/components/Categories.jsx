@@ -4,12 +4,12 @@ export default function Categories() {
   const [searchTerm, setSearchTerm] = useState('');
 
   const categoriesData = [
-    { icon: '🎨', title: 'الهوية البصرية والبراندنج', desc: 'نبني هوية تعبّر عنك' },
-    { icon: '📱', title: 'إدارة السوشيال ميديا', desc: 'محتوى يوصلك لجمهورك الصح' },
-    { icon: '🎯', title: 'الإعلانات الممولة', desc: 'استهداف دقيق يحقق نتائج' },
     { icon: '🎬', title: 'إنتاج الفيديو والمحتوى', desc: 'من التصوير للمونتاج باحترافية' },
     { icon: '💻', title: 'تصميم وبرمجة المواقع', desc: 'حضور رقمي يعكس هويتك' },
-    { icon: '🧭', title: 'الاستراتيجية التسويقية', desc: 'خطة واضحة نحو أهدافك' }
+    { icon: '📱', title: 'إدارة السوشيال ميديا', desc: 'محتوى يوصلك لجمهورك الصح' },
+    { icon: '🎨', title: 'الهوية البصرية والبراندنج', desc: 'نبني هوية تعبّر عنك' },
+    { icon: '🧭', title: 'الاستراتيجية التسويقية', desc: 'خطة واضحة نحو أهدافك' },
+    { icon: '🎯', title: 'الإعلانات الممولة', desc: 'استهداف دقيق يحقق نتائج' }
   ];
 
   // Filter based on search term (title or description)
