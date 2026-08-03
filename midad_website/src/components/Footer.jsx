@@ -4,8 +4,7 @@ export default function Footer() {
       <div className="container footer-grid">
         <div className="footer-brand">
           <a href="#" className="logo">
-            <img src="/LOGO ICON.png" alt="شعار مِداد" className="logo-img" />
-            <span className="logo-text">مِداد</span>
+            <img src="/web_logo.png" alt="شعار مِداد" className="logo-img" />
           </a>
           <p>وكالة تسويق متكاملة، نؤمن أن كل علامة تجارية تستحق أن تُروى قصتها بالشكل الصحيح.</p>
         </div>
