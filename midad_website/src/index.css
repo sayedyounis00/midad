@@ -5,7 +5,7 @@
   --gold-light: rgba(212, 175, 55, 0.15);
   --ink: #1B1710;
   --ink-soft: #4A4438;
-  --cream: #FAF7F0;
+  --olive: #02534d;
   --card: #FFFFFF;
   --border: #E8E1D0;
   --radius-sm: 8px;
@@ -24,7 +24,7 @@
 
 body {
   font-family: var(--font-body);
-  background: var(--cream);
+  background: var(--olive);
   color: var(--ink);
   line-height: 1.6;
   overflow-x: hidden;
@@ -577,7 +577,7 @@ section {
   margin-bottom: 16px;
   display: inline-block;
   padding: 10px;
-  background: var(--cream);
+  background: var(--olive);
   border-radius: var(--radius-sm);
 }
 
@@ -623,7 +623,7 @@ section {
 .workflow-step {
   padding: 32px 24px;
   border-radius: var(--radius-md);
-  background: var(--cream);
+  background: var(--olive);
   border: 1px solid var(--border);
   transition: var(--transition);
   position: relative;
