@@ -11,8 +11,7 @@ export default function Navbar() {
     <header className="navbar">
       <div className="container navbar-inner">
         <a href="#" className="logo">
-          <img src="/LOGO ICON.png" alt="شعار المنصة" className="logo-img" />
-          <span className="logo-text">مِداد</span>
+          <img src="/web_logo.png" alt="شعار مِداد" className="logo-img" />
         </a>
 
         {/* Wrap links and CTA into a single container for better mobile handling */}
