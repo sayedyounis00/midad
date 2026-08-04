@@ -9,7 +9,7 @@
   --ink: #FFFFFF;
   --ink-soft: #E8E1D0;
   --ink-muted: #9CB0AB;
-  --card: #00524b;
+  --card: #00423d;
   --border: rgba(255, 255, 255, 0.10);
   --radius-sm: 8px;
   --radius-md: 14px;
@@ -314,6 +314,13 @@ h4 {
   background: linear-gradient(135deg, var(--primary-lighter), var(--accent));
   position: relative;
   overflow: hidden;
+}
+
+.card-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .card-thumb::after {

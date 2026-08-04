@@ -21,21 +21,26 @@ export default function Hero() {
 
         <div className="hero-visual">
           <div className="float-card card-1">
-            <div className="card-thumb"></div>
+            <div className="card-thumb"><img src={`${import.meta.env.BASE_URL}public/programing.jpeg`} alt="إدارة السوشيال ميديا" />
+            </div>
             <div className="card-label">
               <strong>تصميم وبرمجة المواقع</strong>
               <span>حضور رقمي يعكس هويتك</span>
             </div>
           </div>
           <div className="float-card card-2">
-            <div className="card-thumb"></div>
+            <div className="card-thumb">
+              <img src={`${import.meta.env.BASE_URL}public/profile_mangment.jpeg`} alt="إدارة السوشيال ميديا" />
+            </div>
             <div className="card-label">
               <strong>إدارة السوشيال ميديا</strong>
               <span>محتوى يوصلك لجمهورك الصح</span>
             </div>
           </div>
           <div className="float-card card-3">
-            <div className="card-thumb"></div>
+            <div className="card-thumb">
+              <img src={`${import.meta.env.BASE_URL}public/video_production.jpeg`} alt="إدارة السوشيال ميديا" />
+            </div>
             <div className="card-label">
               <strong>إنتاج الفيديو والمحتوى </strong>
               <span> من التصوير للمونتاج باحترافية</span>

@@ -63,7 +63,7 @@ export default function Navbar() {
     <header className="navbar">
       <div className="container navbar-inner">
         <a href="#" className="logo" onClick={() => handleNavClick('')}>
-          <img src="/web_logo.png" alt="شعار مِداد" className="logo-img" />
+          <img src={`${import.meta.env.BASE_URL}web_logo_w.png`} alt="شعار مِداد" className="logo-img" />
         </a>
 
         {/* Wrap links and CTA into a single container for better mobile handling */}
