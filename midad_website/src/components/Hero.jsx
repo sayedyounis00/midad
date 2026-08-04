@@ -21,7 +21,8 @@ export default function Hero() {
 
         <div className="hero-visual">
           <div className="float-card card-1">
-            <div className="card-thumb"><img src={`${import.meta.env.BASE_URL}public/programing.jpeg`} alt="إدارة السوشيال ميديا" />
+            <div className="card-thumb">
+              <img src={`${import.meta.env.BASE_URL}programing.jpeg`} alt="تصميم وبرمجة المواقع" />
             </div>
             <div className="card-label">
               <strong>تصميم وبرمجة المواقع</strong>
@@ -30,7 +31,7 @@ export default function Hero() {
           </div>
           <div className="float-card card-2">
             <div className="card-thumb">
-              <img src={`${import.meta.env.BASE_URL}public/profile_mangment.jpeg`} alt="إدارة السوشيال ميديا" />
+              <img src={`${import.meta.env.BASE_URL}profile_mangment.jpeg`} alt="إدارة السوشيال ميديا" />
             </div>
             <div className="card-label">
               <strong>إدارة السوشيال ميديا</strong>
@@ -39,7 +40,7 @@ export default function Hero() {
           </div>
           <div className="float-card card-3">
             <div className="card-thumb">
-              <img src={`${import.meta.env.BASE_URL}public/video_production.jpeg`} alt="إدارة السوشيال ميديا" />
+              <img src={`${import.meta.env.BASE_URL}video_production.jpeg`} alt="إنتاج الفيديو والمحتوى" />
             </div>
             <div className="card-label">
               <strong>إنتاج الفيديو والمحتوى </strong>
